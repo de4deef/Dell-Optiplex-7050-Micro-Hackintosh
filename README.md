@@ -26,6 +26,12 @@ I recommend using [OpenCore Configurator](https://mackie100projects.altervista.o
 
 As always, double/triple check everything to make sure, it's a relatively light setup, but better safe than sorry!
 
+## Final product showcase
+
+If all goes well, this is what the final product should look like, the entire boot process from start to finish. If you're not dualbooting then you can ignore the "Windows Boot Manager" and "macOS Boot Manager" part of the video:
+
+https://github.com/linkev/Dell-Optiplex-7050-Micro-Hackintosh/assets/13016565/637bbedf-527e-4ffb-9a30-4245c1ddc71c
+
 ## macOS Sonoma and later WiFi notes
 
 macOS Sonoma has removed Broadcom WiFi card support we all know and love. This means cards like DW1560/DW1820a which I have used with this build before are no longer working. You can make them work with [OpenCore Legacy Patcher](https://dortania.github.io/OpenCore-Legacy-Patcher/), but I decided that is too much headache and simply put in an Intel 9260NGW WiFi card along with [AirportItlwm](https://github.com/OpenIntelWireless/itlwm). It's a shame we lose AirDrop and other Continuity features, I'm only glad we still have Location support.
